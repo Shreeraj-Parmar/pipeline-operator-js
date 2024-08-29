@@ -1,0 +1,17 @@
+{
+  "name": "pipeline-operator",
+  "version": "1.0.0",
+  "description": "use pipeline operator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel index.js --out-file output.js && node output.js"
+  },
+  "author": "shreeraj",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/plugin-proposal-pipeline-operator": "^7.24.7"
+  }
+}
